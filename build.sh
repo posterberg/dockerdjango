@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t django:latest .
+docker build -t django_test:latest .
