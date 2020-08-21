@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd django
-if [ ! -d "$project"]; then
+if [ ! -d "$project" ]; then
   django-admin startproject $project
 fi
 
